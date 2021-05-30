@@ -7,7 +7,7 @@
 
 BST<std::string> makeTree(const char* filename) {
   BST<std::string>tree;
-  
+
   std::ifstream file(filename);
   if (!file) {
     std::cout << "File error!" << std::endl;
